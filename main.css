@@ -5,41 +5,60 @@
 
 .navbar{
 display: flex;
+flex: 1;
 flex-direction: row;
 max-width: 1249;
 margin-left: auto;
 margin-right: auto;
 }
 
-.nav-logo-parent{
-  display: flex;
-  flex-direction: row;
+.nav-right{
+display: flex;
+min-width: 33.33%;
+flex-direction: row;
+margin-top: 8;
+margin-bottom: 6;
+}
+
+.nav-left{
+min-width: 33.33%;
+display: flex;
+flex-direction: row;
+margin-top: 8;
+margin-bottom: 6;
 }
 
 .nav-logo{
-margin-left: auto;
-margin-right: auto;
+min-width: 33.33%;
+display: flex;
+margin-top: 4;
 }
 
 .nav-myaccount{
-margin-left: auto;
+  margin-left: auto;
+}
+
+
+.nav-simplistic{
+  margin-right: auto;
+}
+
+.logo{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav div a {
   color: #666666;
   display: block;
   text-align: right;
-  padding: 16px 16px;
+  padding:16 ; 
   text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-.nav div a:hover {
+.navbar div a:hover {
   color: #111;
-}
-
-#nav-container{
-  position: relative;
 }
 
 .catagories{

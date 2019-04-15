@@ -4,20 +4,33 @@
 <head>
     <link rel="stylesheet" href="main.css">
 
-  <div id="nav-logo-parent" class="nav-logo-parent">
-    <div class="nav-logo"><a href="#"><img class="logo" src="assets/logo.svg" height="26"></a></div>
+  <!navbar>
+  <nav id="navbar" class="navbar">
+
+      <!navbar options to the left of logo>
+    <div class="nav-left">
+      <div class="nav-nerds"><a href="#">Nerds</a></div>
+      <div class="nav-gamers"><a href="#">Gamers</a></div>
+      <div class="nav-simplistic"><a href="#">Simplistic</a></div>
+    </div>
+
+      <!logo>
+    <div class="nav-logo">
+      <div class="logo"><a href="#"><img src="assets/logo.svg" height="26"></a></div>
+    </div>
+
+      <!navbar options to the right of logo>
+    <div class="nav-right">
+      <div class="nav-myaccount"><a href="#">My Account</a></li></div>
+      <div class="nav-cart"><a href="#">Cart <font color="orange">(<?php echo $num_of_items; ?>)</font></a></div>
+    </div>
+  </nav>
+  
+  <!slider banner just below navbar>
+  <div class="slider-banner">
+      <img style="" src="assets/banner1.png" width="100%">
   </div>
 
-  <div class="nav-container" id="nav-container">
-  <nav id="navbar" class="navbar">
-      <div class="nav-nerds"><a class="nav-left" href="#">Nerds</a></div>
-      <div class="nav-gamers"><a class="nav-left" href="#">Gamers</a></div>
-      <div class="nav-simplistic"><a class="nav-left" href="#">Simplistic</a></div>
-      <div class="nav-myaccount"><a class="nav-right" href="#">My Account</a></li></div>
-      <div class="nav-cart"><a class="nav right" href="#">Cart<sup><?php echo $num_of_items; ?></sup></a></li><div>
-  </nav>
-  </div>
-      <img style="" src="assets/banner1.png" width="100%">
 </head>
 
 <body>
