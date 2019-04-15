@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+display: flex;
+flex-direction: row;
+max-width: 1249;
+margin-left: auto;
+margin-right: auto;
+}
+
+.nav-logo-parent{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-logo{
+margin-left: auto;
+margin-right: auto;
+}
+
+.nav-myaccount{
+margin-left: auto;
+}
+
+nav div a {
+  color: #666666;
+  display: block;
+  text-align: right;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav div a:hover {
+  color: #111;
+}
+
+#nav-container{
+  position: relative;
+}
+
+.catagories{
+  display: flex;
+  flex-direction: row;
+  max-width: 1249;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16;
+}
